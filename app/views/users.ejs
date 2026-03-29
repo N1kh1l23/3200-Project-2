@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SlangDB — Users</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Users</h1>
+    <a href="/" class="btn btn-sm">Home</a>
+    <a href="/users/new" class="btn btn-sm btn-green">+ Add User</a>
+    <table>
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Display Name</th>
+          <th>Email</th>
+          <th>Role</th>
+          <th>Region</th>
+          <th>Contributions</th>
+          <th>Active</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% users.forEach(u => { %>
+          <tr>
+            <td><strong><%= u.username %></strong></td>
+            <td><%= u.profile.displayName %></td>
+            <td><%= u.email %></td>
+            <td><span class="badge badge-<%= u.role %>"><%= u.role %></span></td>
+            <td><%= u.profile.region %></td>
+            <td><%= u.contributedTermIds.length %> terms</td>
+            <td><%= u.isActive ? "Yes" : "No" %></td>
+            <td>
+              <a href="/users/edit/<%= u._id %>" class="btn btn-sm">Edit</a>
+              <form action="/users/delete/<%= u._id %>" method="POST" style="display:inline">
+                <button type="submit" class="btn btn-sm btn-red" onclick="return confirm('Delete this user?')">Delete</button>
+              </form>
+            </td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

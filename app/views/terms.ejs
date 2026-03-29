@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SlangDB — Terms</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Slang Terms</h1>
+    <a href="/" class="btn btn-sm">Home</a>
+    <a href="/terms/new" class="btn btn-sm btn-green">+ Add Term</a>
+    <table>
+      <thead>
+        <tr>
+          <th>Term</th>
+          <th>Difficulty</th>
+          <th>Trending</th>
+          <th>Popularity</th>
+          <th>Origin</th>
+          <th>Categories</th>
+          <th>Active</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% terms.forEach(t => { %>
+          <tr>
+            <td><strong><%= t.text %></strong></td>
+            <td><%= t.difficultyRating %>/5</td>
+            <td><span class="badge badge-<%= t.trendingStatus.toLowerCase() %>"><%= t.trendingStatus %></span></td>
+            <td><%= t.popularityScore %></td>
+            <td><%= t.origin.name %></td>
+            <td><%= t.categories.join(", ") %></td>
+            <td><%= t.isActive ? "Yes" : "No" %></td>
+            <td>
+              <a href="/terms/edit/<%= t._id %>" class="btn btn-sm">Edit</a>
+              <form action="/terms/delete/<%= t._id %>" method="POST" style="display:inline">
+                <button type="submit" class="btn btn-sm btn-red" onclick="return confirm('Delete this term?')">Delete</button>
+              </form>
+            </td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

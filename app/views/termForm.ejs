@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SlangDB — <%= term ? "Edit" : "New" %> Term</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1><%= term ? "Edit" : "Add New" %> Term</h1>
+    <a href="/terms" class="btn btn-sm">Back to Terms</a>
+
+    <form action="<%= term ? '/terms/edit/' + term._id : '/terms' %>" method="POST" class="form">
+      <% if (!term) { %>
+        <label>Term ID
+          <input type="number" name="termId" required>
+        </label>
+      <% } %>
+
+      <label>Text
+        <input type="text" name="text" value="<%= term ? term.text : '' %>" required>
+      </label>
+
+      <label>Difficulty Rating (1-5)
+        <input type="number" name="difficultyRating" min="1" max="5" value="<%= term ? term.difficultyRating : 1 %>" required>
+      </label>
+
+      <label>Trending Status
+        <select name="trendingStatus">
+          <% ["Rising", "Peak", "Stable", "Declining", "Dead"].forEach(s => { %>
+            <option value="<%= s %>" <%= term && term.trendingStatus === s ? 'selected' : '' %>><%= s %></option>
+          <% }) %>
+        </select>
+      </label>
+
+      <label>Popularity Score (0-10)
+        <input type="number" name="popularityScore" min="0" max="10" step="0.1" value="<%= term ? term.popularityScore : 5.0 %>" required>
+      </label>
+
+      <label>Categories (comma separated)
+        <input type="text" name="categories" value="<%= term ? term.categories.join(', ') : '' %>" placeholder="Compliment, Hype, Slang">
+      </label>
+
+      <% if (term) { %>
+        <label class="checkbox-label">
+          <input type="checkbox" name="isActive" <%= term.isActive ? 'checked' : '' %>>
+          Active
+        </label>
+      <% } %>
+
+      <% if (!term) { %>
+        <h3>Origin</h3>
+        <label>Origin ID
+          <input type="number" name="originId">
+        </label>
+        <label>Origin Name
+          <input type="text" name="originName" placeholder="e.g. AAVE, Internet Culture">
+        </label>
+        <label>Description
+          <input type="text" name="originDescription">
+        </label>
+        <label>Culture Group
+          <input type="text" name="originCultureGroup">
+        </label>
+      <% } %>
+
+      <button type="submit" class="btn btn-green"><%= term ? "Save Changes" : "Add Term" %></button>
+    </form>
+  </div>
+</body>
+</html>

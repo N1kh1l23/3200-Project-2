@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SlangDB — <%= user ? "Edit" : "New" %> User</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1><%= user ? "Edit" : "Add New" %> User</h1>
+    <a href="/users" class="btn btn-sm">Back to Users</a>
+
+    <form action="<%= user ? '/users/edit/' + user._id : '/users' %>" method="POST" class="form">
+      <% if (!user) { %>
+        <label>User ID
+          <input type="number" name="userId" required>
+        </label>
+      <% } %>
+
+      <label>Username
+        <input type="text" name="username" value="<%= user ? user.username : '' %>" required>
+      </label>
+
+      <label>Email
+        <input type="email" name="email" value="<%= user ? user.email : '' %>" required>
+      </label>
+
+      <label>Role
+        <select name="role">
+          <% ["viewer", "contributor", "researcher", "admin"].forEach(r => { %>
+            <option value="<%= r %>" <%= user && user.role === r ? 'selected' : '' %>><%= r %></option>
+          <% }) %>
+        </select>
+      </label>
+
+      <label>Display Name
+        <input type="text" name="displayName" value="<%= user ? user.profile.displayName : '' %>">
+      </label>
+
+      <label>Bio
+        <textarea name="bio" rows="3"><%= user ? user.profile.bio : '' %></textarea>
+      </label>
+
+      <label>Region
+        <input type="text" name="region" value="<%= user ? user.profile.region : '' %>" placeholder="e.g. Northeast US, London, Global">
+      </label>
+
+      <% if (user) { %>
+        <label class="checkbox-label">
+          <input type="checkbox" name="isActive" <%= user.isActive ? 'checked' : '' %>>
+          Active
+        </label>
+      <% } %>
+
+      <button type="submit" class="btn btn-green"><%= user ? "Save Changes" : "Add User" %></button>
+    </form>
+  </div>
+</body>
+</html>
