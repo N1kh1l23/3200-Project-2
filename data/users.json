@@ -1,0 +1,122 @@
+[
+  {
+    "userId": 1,
+    "username": "slangmaster99",
+    "email": "slangmaster99@gmail.com",
+    "role": "contributor",
+    "joinDate": "2024-01-01",
+    "isActive": true,
+    "profile": {
+      "displayName": "Slang Master",
+      "bio": "Documenting internet culture one term at a time",
+      "region": "Northeast US"
+    },
+    "contributedTermIds": [1, 5, 12, 23],
+    "favoriteTermIds": [1, 3, 5, 25]
+  },
+  {
+    "userId": 2,
+    "username": "linguist_jane",
+    "email": "jane.doe@university.edu",
+    "role": "researcher",
+    "joinDate": "2024-03-15",
+    "isActive": true,
+    "profile": {
+      "displayName": "Dr. Jane Doe",
+      "bio": "Sociolinguistics professor studying digital language evolution",
+      "region": "London"
+    },
+    "contributedTermIds": [9, 24, 25],
+    "favoriteTermIds": [3, 9, 19, 24]
+  },
+  {
+    "userId": 3,
+    "username": "vibecheck_king",
+    "email": "vking@hotmail.com",
+    "role": "contributor",
+    "joinDate": "2023-06-10",
+    "isActive": true,
+    "profile": {
+      "displayName": "Vibe King",
+      "bio": "If the vibes are off, I'll let you know",
+      "region": "West Coast US"
+    },
+    "contributedTermIds": [7, 16, 19],
+    "favoriteTermIds": [7, 13, 16, 17]
+  },
+  {
+    "userId": 4,
+    "username": "gen_z_translator",
+    "email": "translator@gmail.com",
+    "role": "contributor",
+    "joinDate": "2023-09-01",
+    "isActive": true,
+    "profile": {
+      "displayName": "Gen Z Translator",
+      "bio": "Helping boomers understand what their kids are saying",
+      "region": "Southeast US"
+    },
+    "contributedTermIds": [2, 4, 6, 8, 13, 14, 15],
+    "favoriteTermIds": [2, 4, 6, 8]
+  },
+  {
+    "userId": 5,
+    "username": "kpop_stan_sarah",
+    "email": "sarah.stan@gmail.com",
+    "role": "contributor",
+    "joinDate": "2023-11-20",
+    "isActive": true,
+    "profile": {
+      "displayName": "Sarah",
+      "bio": "K-pop enthusiast and slang archivist",
+      "region": "Seoul"
+    },
+    "contributedTermIds": [9, 22],
+    "favoriteTermIds": [3, 9, 22, 25]
+  },
+  {
+    "userId": 6,
+    "username": "gamer_dave",
+    "email": "dave.gaming@outlook.com",
+    "role": "contributor",
+    "joinDate": "2020-10-15",
+    "isActive": true,
+    "profile": {
+      "displayName": "Dave",
+      "bio": "Tracking gaming slang since the Among Us days",
+      "region": "Midwest US"
+    },
+    "contributedTermIds": [7, 23],
+    "favoriteTermIds": [7, 23]
+  },
+  {
+    "userId": 7,
+    "username": "tiktok_archivist",
+    "email": "archivist@tiktok.fan",
+    "role": "admin",
+    "joinDate": "2022-01-01",
+    "isActive": true,
+    "profile": {
+      "displayName": "TikTok Archivist",
+      "bio": "Admin and curator of the SlangDB collection",
+      "region": "Global"
+    },
+    "contributedTermIds": [3, 10, 11, 17, 18, 20, 21, 24, 25],
+    "favoriteTermIds": [1, 3, 5, 17, 25]
+  },
+  {
+    "userId": 8,
+    "username": "oldhead_mike",
+    "email": "mike.johnson@yahoo.com",
+    "role": "viewer",
+    "joinDate": "2024-06-01",
+    "isActive": false,
+    "profile": {
+      "displayName": "Mike J",
+      "bio": "Just trying to understand what my daughter is saying",
+      "region": "Midwest US"
+    },
+    "contributedTermIds": [],
+    "favoriteTermIds": [4, 6, 17]
+  }
+]

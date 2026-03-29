@@ -1,0 +1,880 @@
+[
+  {
+    "termId": 1,
+    "text": "slay",
+    "difficultyRating": 2,
+    "trendingStatus": "Peak",
+    "popularityScore": 9.2,
+    "dateAdded": "2024-01-15",
+    "isActive": true,
+    "origin": {
+      "originId": 1,
+      "name": "AAVE",
+      "description": "African American Vernacular English",
+      "cultureGroup": "African American"
+    },
+    "definitions": [
+      {
+        "definitionId": 1,
+        "text": "To do something exceptionally well; to impress or dominate",
+        "partOfSpeech": "verb",
+        "dateAdded": "2024-01-15",
+        "examples": [
+          { "exampleId": 1, "sentence": "She walked into the room and absolutely slayed.", "source": "TikTok", "dateRecorded": "2024-02-01" },
+          { "exampleId": 2, "sentence": "You slayed that presentation, everyone was shook.", "source": "Twitter", "dateRecorded": "2024-02-10" }
+        ]
+      },
+      {
+        "definitionId": 2,
+        "text": "A compliment affirming someone's appearance or actions",
+        "partOfSpeech": "interjection",
+        "dateAdded": "2024-01-20",
+        "examples": [
+          { "exampleId": 3, "sentence": "Slay! That outfit is fire.", "source": "Instagram", "dateRecorded": "2024-03-05" }
+        ]
+      }
+    ],
+    "categories": ["Compliment", "Hype", "Affirmation"],
+    "regions": [
+      { "regionName": "Northeast US", "country": "USA", "popularityScore": 9.5 },
+      { "regionName": "London", "country": "UK", "popularityScore": 8.7 },
+      { "regionName": "Toronto", "country": "Canada", "popularityScore": 8.0 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 5, "toTermText": "ate", "relationType": "synonym", "confidenceScore": 0.92 },
+      { "toTermId": 12, "toTermText": "flop", "relationType": "antonym", "confidenceScore": 0.85 }
+    ]
+  },
+  {
+    "termId": 2,
+    "text": "no cap",
+    "difficultyRating": 1,
+    "trendingStatus": "Declining",
+    "popularityScore": 7.1,
+    "dateAdded": "2023-06-10",
+    "isActive": true,
+    "origin": {
+      "originId": 2,
+      "name": "Southern US Slang",
+      "description": "Originated in Southern United States hip-hop culture",
+      "cultureGroup": "African American"
+    },
+    "definitions": [
+      {
+        "definitionId": 3,
+        "text": "No lie; for real; I'm being completely honest",
+        "partOfSpeech": "adverb",
+        "dateAdded": "2023-06-10",
+        "examples": [
+          { "exampleId": 4, "sentence": "That movie was the best one this year, no cap.", "source": "Reddit", "dateRecorded": "2023-07-15" }
+        ]
+      }
+    ],
+    "categories": ["Affirmation", "Emphasis"],
+    "regions": [
+      { "regionName": "Southeast US", "country": "USA", "popularityScore": 8.5 },
+      { "regionName": "West Coast US", "country": "USA", "popularityScore": 7.8 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 8, "toTermText": "fr fr", "relationType": "synonym", "confidenceScore": 0.88 },
+      { "toTermId": 15, "toTermText": "cap", "relationType": "antonym", "confidenceScore": 0.95 }
+    ]
+  },
+  {
+    "termId": 3,
+    "text": "rizz",
+    "difficultyRating": 2,
+    "trendingStatus": "Peak",
+    "popularityScore": 9.5,
+    "dateAdded": "2023-09-01",
+    "isActive": true,
+    "origin": {
+      "originId": 3,
+      "name": "Internet Culture",
+      "description": "Born from YouTube and Twitch streaming communities",
+      "cultureGroup": "Online"
+    },
+    "definitions": [
+      {
+        "definitionId": 4,
+        "text": "Charisma or charm, especially in flirting or attracting others",
+        "partOfSpeech": "noun",
+        "dateAdded": "2023-09-01",
+        "examples": [
+          { "exampleId": 5, "sentence": "Bro has unspoken rizz, he doesn't even have to try.", "source": "TikTok", "dateRecorded": "2023-09-20" },
+          { "exampleId": 6, "sentence": "She rizzed him up without saying a word.", "source": "Twitter", "dateRecorded": "2023-10-05" }
+        ]
+      },
+      {
+        "definitionId": 5,
+        "text": "To charm or flirt with someone successfully",
+        "partOfSpeech": "verb",
+        "dateAdded": "2023-09-15",
+        "examples": [
+          { "exampleId": 7, "sentence": "Watch me rizz up the whole party tonight.", "source": "Snapchat", "dateRecorded": "2023-11-01" }
+        ]
+      }
+    ],
+    "categories": ["Social", "Compliment", "Dating"],
+    "regions": [
+      { "regionName": "Northeast US", "country": "USA", "popularityScore": 9.8 },
+      { "regionName": "London", "country": "UK", "popularityScore": 8.2 },
+      { "regionName": "Sydney", "country": "Australia", "popularityScore": 7.5 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 20, "toTermText": "game", "relationType": "synonym", "confidenceScore": 0.80 }
+    ]
+  },
+  {
+    "termId": 4,
+    "text": "bet",
+    "difficultyRating": 1,
+    "trendingStatus": "Stable",
+    "popularityScore": 8.0,
+    "dateAdded": "2022-03-20",
+    "isActive": true,
+    "origin": {
+      "originId": 1,
+      "name": "AAVE",
+      "description": "African American Vernacular English",
+      "cultureGroup": "African American"
+    },
+    "definitions": [
+      {
+        "definitionId": 6,
+        "text": "An affirmative response meaning 'okay', 'sure', or 'sounds good'",
+        "partOfSpeech": "interjection",
+        "dateAdded": "2022-03-20",
+        "examples": [
+          { "exampleId": 8, "sentence": "Wanna grab food later? Bet.", "source": "Text Message", "dateRecorded": "2022-04-01" }
+        ]
+      }
+    ],
+    "categories": ["Affirmation", "Response"],
+    "regions": [
+      { "regionName": "Northeast US", "country": "USA", "popularityScore": 8.5 },
+      { "regionName": "Southeast US", "country": "USA", "popularityScore": 9.0 },
+      { "regionName": "West Coast US", "country": "USA", "popularityScore": 8.0 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 2, "toTermText": "no cap", "relationType": "related", "confidenceScore": 0.60 }
+    ]
+  },
+  {
+    "termId": 5,
+    "text": "ate",
+    "difficultyRating": 2,
+    "trendingStatus": "Peak",
+    "popularityScore": 8.8,
+    "dateAdded": "2023-04-12",
+    "isActive": true,
+    "origin": {
+      "originId": 4,
+      "name": "Drag Culture",
+      "description": "Originated in drag ball culture and LGBTQ+ communities",
+      "cultureGroup": "LGBTQ+"
+    },
+    "definitions": [
+      {
+        "definitionId": 7,
+        "text": "Did something extremely well; killed it; performed flawlessly",
+        "partOfSpeech": "verb",
+        "dateAdded": "2023-04-12",
+        "examples": [
+          { "exampleId": 9, "sentence": "She ate that dance routine and left no crumbs.", "source": "TikTok", "dateRecorded": "2023-05-01" },
+          { "exampleId": 10, "sentence": "The fit ate. Absolutely devoured.", "source": "Instagram", "dateRecorded": "2023-05-15" }
+        ]
+      }
+    ],
+    "categories": ["Compliment", "Hype"],
+    "regions": [
+      { "regionName": "West Coast US", "country": "USA", "popularityScore": 9.2 },
+      { "regionName": "London", "country": "UK", "popularityScore": 8.5 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 1, "toTermText": "slay", "relationType": "synonym", "confidenceScore": 0.92 },
+      { "toTermId": 12, "toTermText": "flop", "relationType": "antonym", "confidenceScore": 0.88 }
+    ]
+  },
+  {
+    "termId": 6,
+    "text": "bussin",
+    "difficultyRating": 1,
+    "trendingStatus": "Declining",
+    "popularityScore": 6.5,
+    "dateAdded": "2021-08-15",
+    "isActive": true,
+    "origin": {
+      "originId": 1,
+      "name": "AAVE",
+      "description": "African American Vernacular English",
+      "cultureGroup": "African American"
+    },
+    "definitions": [
+      {
+        "definitionId": 8,
+        "text": "Really good, especially when referring to food",
+        "partOfSpeech": "adjective",
+        "dateAdded": "2021-08-15",
+        "examples": [
+          { "exampleId": 11, "sentence": "This pasta is bussin, you gotta try it.", "source": "TikTok", "dateRecorded": "2021-09-01" }
+        ]
+      }
+    ],
+    "categories": ["Compliment", "Food"],
+    "regions": [
+      { "regionName": "Southeast US", "country": "USA", "popularityScore": 7.5 },
+      { "regionName": "Midwest US", "country": "USA", "popularityScore": 6.0 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 17, "toTermText": "fire", "relationType": "synonym", "confidenceScore": 0.75 }
+    ]
+  },
+  {
+    "termId": 7,
+    "text": "sus",
+    "difficultyRating": 1,
+    "trendingStatus": "Stable",
+    "popularityScore": 7.8,
+    "dateAdded": "2020-10-01",
+    "isActive": true,
+    "origin": {
+      "originId": 5,
+      "name": "Gaming",
+      "description": "Popularized by the video game Among Us",
+      "cultureGroup": "Online"
+    },
+    "definitions": [
+      {
+        "definitionId": 9,
+        "text": "Suspicious or suspect; something seems off or untrustworthy",
+        "partOfSpeech": "adjective",
+        "dateAdded": "2020-10-01",
+        "examples": [
+          { "exampleId": 12, "sentence": "That excuse is kinda sus ngl.", "source": "Discord", "dateRecorded": "2020-11-01" },
+          { "exampleId": 13, "sentence": "He's acting real sus about where he was last night.", "source": "Twitter", "dateRecorded": "2021-01-10" }
+        ]
+      }
+    ],
+    "categories": ["Accusation", "Skepticism"],
+    "regions": [
+      { "regionName": "Global", "country": "Global", "popularityScore": 8.5 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 15, "toTermText": "cap", "relationType": "related", "confidenceScore": 0.65 }
+    ]
+  },
+  {
+    "termId": 8,
+    "text": "fr fr",
+    "difficultyRating": 1,
+    "trendingStatus": "Stable",
+    "popularityScore": 7.5,
+    "dateAdded": "2022-05-01",
+    "isActive": true,
+    "origin": {
+      "originId": 3,
+      "name": "Internet Culture",
+      "description": "Born from YouTube and Twitch streaming communities",
+      "cultureGroup": "Online"
+    },
+    "definitions": [
+      {
+        "definitionId": 10,
+        "text": "For real for real; used to emphasize sincerity or agreement",
+        "partOfSpeech": "adverb",
+        "dateAdded": "2022-05-01",
+        "examples": [
+          { "exampleId": 14, "sentence": "That test was impossible fr fr.", "source": "Snapchat", "dateRecorded": "2022-06-01" }
+        ]
+      }
+    ],
+    "categories": ["Affirmation", "Emphasis"],
+    "regions": [
+      { "regionName": "Northeast US", "country": "USA", "popularityScore": 8.0 },
+      { "regionName": "West Coast US", "country": "USA", "popularityScore": 7.5 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 2, "toTermText": "no cap", "relationType": "synonym", "confidenceScore": 0.88 }
+    ]
+  },
+  {
+    "termId": 9,
+    "text": "delulu",
+    "difficultyRating": 3,
+    "trendingStatus": "Rising",
+    "popularityScore": 7.0,
+    "dateAdded": "2023-11-01",
+    "isActive": true,
+    "origin": {
+      "originId": 6,
+      "name": "K-Pop Fandom",
+      "description": "Originated within Korean pop music fan communities",
+      "cultureGroup": "Korean"
+    },
+    "definitions": [
+      {
+        "definitionId": 11,
+        "text": "Delusional; having unrealistic expectations especially about relationships or celebrities",
+        "partOfSpeech": "adjective",
+        "dateAdded": "2023-11-01",
+        "examples": [
+          { "exampleId": 15, "sentence": "She thinks he's gonna notice her in the crowd, that's so delulu.", "source": "TikTok", "dateRecorded": "2023-12-01" },
+          { "exampleId": 16, "sentence": "Delulu is the solulu.", "source": "Twitter", "dateRecorded": "2024-01-05" }
+        ]
+      }
+    ],
+    "categories": ["Insult", "Humor", "Dating"],
+    "regions": [
+      { "regionName": "Global", "country": "Global", "popularityScore": 7.5 },
+      { "regionName": "Seoul", "country": "South Korea", "popularityScore": 9.0 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 22, "toTermText": "simp", "relationType": "related", "confidenceScore": 0.70 }
+    ]
+  },
+  {
+    "termId": 10,
+    "text": "valid",
+    "difficultyRating": 1,
+    "trendingStatus": "Stable",
+    "popularityScore": 6.8,
+    "dateAdded": "2021-02-14",
+    "isActive": true,
+    "origin": {
+      "originId": 3,
+      "name": "Internet Culture",
+      "description": "Born from YouTube and Twitch streaming communities",
+      "cultureGroup": "Online"
+    },
+    "definitions": [
+      {
+        "definitionId": 12,
+        "text": "Acceptable, reasonable, or worthy of respect",
+        "partOfSpeech": "adjective",
+        "dateAdded": "2021-02-14",
+        "examples": [
+          { "exampleId": 17, "sentence": "That take is valid, I never thought of it that way.", "source": "Reddit", "dateRecorded": "2021-03-01" }
+        ]
+      }
+    ],
+    "categories": ["Affirmation", "Approval"],
+    "regions": [
+      { "regionName": "Global", "country": "Global", "popularityScore": 7.0 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 4, "toTermText": "bet", "relationType": "related", "confidenceScore": 0.55 }
+    ]
+  },
+  {
+    "termId": 11,
+    "text": "ghosted",
+    "difficultyRating": 1,
+    "trendingStatus": "Stable",
+    "popularityScore": 8.2,
+    "dateAdded": "2020-06-01",
+    "isActive": true,
+    "origin": {
+      "originId": 7,
+      "name": "Dating Culture",
+      "description": "Emerged from online dating and texting norms",
+      "cultureGroup": "Online"
+    },
+    "definitions": [
+      {
+        "definitionId": 13,
+        "text": "When someone suddenly stops all communication without explanation",
+        "partOfSpeech": "verb",
+        "dateAdded": "2020-06-01",
+        "examples": [
+          { "exampleId": 18, "sentence": "We talked every day for a month then he just ghosted me.", "source": "Twitter", "dateRecorded": "2020-07-15" },
+          { "exampleId": 19, "sentence": "I got ghosted after three dates, it's whatever.", "source": "Reddit", "dateRecorded": "2020-08-01" }
+        ]
+      }
+    ],
+    "categories": ["Dating", "Social", "Negative"],
+    "regions": [
+      { "regionName": "Global", "country": "Global", "popularityScore": 8.5 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 18, "toTermText": "left on read", "relationType": "synonym", "confidenceScore": 0.78 }
+    ]
+  },
+  {
+    "termId": 12,
+    "text": "flop",
+    "difficultyRating": 1,
+    "trendingStatus": "Stable",
+    "popularityScore": 6.0,
+    "dateAdded": "2022-01-10",
+    "isActive": true,
+    "origin": {
+      "originId": 3,
+      "name": "Internet Culture",
+      "description": "Born from YouTube and Twitch streaming communities",
+      "cultureGroup": "Online"
+    },
+    "definitions": [
+      {
+        "definitionId": 14,
+        "text": "To fail completely; the opposite of slaying or eating",
+        "partOfSpeech": "verb",
+        "dateAdded": "2022-01-10",
+        "examples": [
+          { "exampleId": 20, "sentence": "That album flopped so hard, nobody streamed it.", "source": "Twitter", "dateRecorded": "2022-02-01" }
+        ]
+      }
+    ],
+    "categories": ["Insult", "Negative"],
+    "regions": [
+      { "regionName": "Global", "country": "Global", "popularityScore": 6.5 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 1, "toTermText": "slay", "relationType": "antonym", "confidenceScore": 0.85 },
+      { "toTermId": 5, "toTermText": "ate", "relationType": "antonym", "confidenceScore": 0.88 }
+    ]
+  },
+  {
+    "termId": 13,
+    "text": "lowkey",
+    "difficultyRating": 1,
+    "trendingStatus": "Stable",
+    "popularityScore": 8.5,
+    "dateAdded": "2019-04-01",
+    "isActive": true,
+    "origin": {
+      "originId": 1,
+      "name": "AAVE",
+      "description": "African American Vernacular English",
+      "cultureGroup": "African American"
+    },
+    "definitions": [
+      {
+        "definitionId": 15,
+        "text": "Secretly; somewhat; to a moderate degree without broadcasting it",
+        "partOfSpeech": "adverb",
+        "dateAdded": "2019-04-01",
+        "examples": [
+          { "exampleId": 21, "sentence": "I lowkey wanna skip class today.", "source": "Snapchat", "dateRecorded": "2019-05-01" },
+          { "exampleId": 22, "sentence": "That song is lowkey a banger.", "source": "TikTok", "dateRecorded": "2020-01-15" }
+        ]
+      }
+    ],
+    "categories": ["Modifier", "Emphasis"],
+    "regions": [
+      { "regionName": "Global", "country": "Global", "popularityScore": 8.5 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 14, "toTermText": "highkey", "relationType": "antonym", "confidenceScore": 0.95 }
+    ]
+  },
+  {
+    "termId": 14,
+    "text": "highkey",
+    "difficultyRating": 1,
+    "trendingStatus": "Stable",
+    "popularityScore": 7.0,
+    "dateAdded": "2019-04-01",
+    "isActive": true,
+    "origin": {
+      "originId": 1,
+      "name": "AAVE",
+      "description": "African American Vernacular English",
+      "cultureGroup": "African American"
+    },
+    "definitions": [
+      {
+        "definitionId": 16,
+        "text": "Openly; very much; without any attempt to hide it",
+        "partOfSpeech": "adverb",
+        "dateAdded": "2019-04-01",
+        "examples": [
+          { "exampleId": 23, "sentence": "I highkey need a vacation right now.", "source": "Twitter", "dateRecorded": "2019-06-01" }
+        ]
+      }
+    ],
+    "categories": ["Modifier", "Emphasis"],
+    "regions": [
+      { "regionName": "Global", "country": "Global", "popularityScore": 7.0 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 13, "toTermText": "lowkey", "relationType": "antonym", "confidenceScore": 0.95 }
+    ]
+  },
+  {
+    "termId": 15,
+    "text": "cap",
+    "difficultyRating": 1,
+    "trendingStatus": "Declining",
+    "popularityScore": 6.8,
+    "dateAdded": "2021-01-15",
+    "isActive": true,
+    "origin": {
+      "originId": 2,
+      "name": "Southern US Slang",
+      "description": "Originated in Southern United States hip-hop culture",
+      "cultureGroup": "African American"
+    },
+    "definitions": [
+      {
+        "definitionId": 17,
+        "text": "A lie or exaggeration; to lie",
+        "partOfSpeech": "noun",
+        "dateAdded": "2021-01-15",
+        "examples": [
+          { "exampleId": 24, "sentence": "That's cap, there's no way you ran a 4-minute mile.", "source": "Instagram", "dateRecorded": "2021-02-01" }
+        ]
+      }
+    ],
+    "categories": ["Accusation", "Skepticism"],
+    "regions": [
+      { "regionName": "Southeast US", "country": "USA", "popularityScore": 8.0 },
+      { "regionName": "West Coast US", "country": "USA", "popularityScore": 7.0 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 2, "toTermText": "no cap", "relationType": "antonym", "confidenceScore": 0.95 },
+      { "toTermId": 7, "toTermText": "sus", "relationType": "related", "confidenceScore": 0.65 }
+    ]
+  },
+  {
+    "termId": 16,
+    "text": "vibe check",
+    "difficultyRating": 2,
+    "trendingStatus": "Declining",
+    "popularityScore": 5.5,
+    "dateAdded": "2019-11-01",
+    "isActive": false,
+    "origin": {
+      "originId": 3,
+      "name": "Internet Culture",
+      "description": "Born from YouTube and Twitch streaming communities",
+      "cultureGroup": "Online"
+    },
+    "definitions": [
+      {
+        "definitionId": 18,
+        "text": "An assessment of someone's mood or energy; a test of whether someone's vibe is acceptable",
+        "partOfSpeech": "noun",
+        "dateAdded": "2019-11-01",
+        "examples": [
+          { "exampleId": 25, "sentence": "Vibe check! How's everyone feeling tonight?", "source": "TikTok", "dateRecorded": "2019-12-01" }
+        ]
+      }
+    ],
+    "categories": ["Social", "Humor"],
+    "regions": [
+      { "regionName": "Global", "country": "Global", "popularityScore": 5.5 }
+    ],
+    "semanticRelations": []
+  },
+  {
+    "termId": 17,
+    "text": "fire",
+    "difficultyRating": 1,
+    "trendingStatus": "Stable",
+    "popularityScore": 8.0,
+    "dateAdded": "2018-01-01",
+    "isActive": true,
+    "origin": {
+      "originId": 8,
+      "name": "Hip-Hop",
+      "description": "Rooted in hip-hop music and culture",
+      "cultureGroup": "African American"
+    },
+    "definitions": [
+      {
+        "definitionId": 19,
+        "text": "Extremely good, cool, or impressive",
+        "partOfSpeech": "adjective",
+        "dateAdded": "2018-01-01",
+        "examples": [
+          { "exampleId": 26, "sentence": "That new Drake album is fire.", "source": "Twitter", "dateRecorded": "2018-02-01" },
+          { "exampleId": 27, "sentence": "Your fit is fire today bro.", "source": "Instagram", "dateRecorded": "2019-03-10" }
+        ]
+      }
+    ],
+    "categories": ["Compliment", "Approval"],
+    "regions": [
+      { "regionName": "Global", "country": "Global", "popularityScore": 8.5 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 6, "toTermText": "bussin", "relationType": "synonym", "confidenceScore": 0.75 },
+      { "toTermId": 1, "toTermText": "slay", "relationType": "related", "confidenceScore": 0.70 }
+    ]
+  },
+  {
+    "termId": 18,
+    "text": "left on read",
+    "difficultyRating": 1,
+    "trendingStatus": "Stable",
+    "popularityScore": 7.5,
+    "dateAdded": "2020-03-01",
+    "isActive": true,
+    "origin": {
+      "originId": 7,
+      "name": "Dating Culture",
+      "description": "Emerged from online dating and texting norms",
+      "cultureGroup": "Online"
+    },
+    "definitions": [
+      {
+        "definitionId": 20,
+        "text": "When someone reads your message but doesn't reply",
+        "partOfSpeech": "verb",
+        "dateAdded": "2020-03-01",
+        "examples": [
+          { "exampleId": 28, "sentence": "I poured my heart out and she left me on read.", "source": "Twitter", "dateRecorded": "2020-04-01" }
+        ]
+      }
+    ],
+    "categories": ["Dating", "Social", "Negative"],
+    "regions": [
+      { "regionName": "Global", "country": "Global", "popularityScore": 7.5 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 11, "toTermText": "ghosted", "relationType": "synonym", "confidenceScore": 0.78 }
+    ]
+  },
+  {
+    "termId": 19,
+    "text": "main character",
+    "difficultyRating": 2,
+    "trendingStatus": "Declining",
+    "popularityScore": 6.2,
+    "dateAdded": "2021-06-01",
+    "isActive": true,
+    "origin": {
+      "originId": 3,
+      "name": "Internet Culture",
+      "description": "Born from YouTube and Twitch streaming communities",
+      "cultureGroup": "Online"
+    },
+    "definitions": [
+      {
+        "definitionId": 21,
+        "text": "Someone who acts as if the world revolves around them; living life like they're the protagonist",
+        "partOfSpeech": "noun",
+        "dateAdded": "2021-06-01",
+        "examples": [
+          { "exampleId": 29, "sentence": "She walked through campus with her coffee like a main character.", "source": "TikTok", "dateRecorded": "2021-07-01" },
+          { "exampleId": 30, "sentence": "I'm giving main character energy today.", "source": "Instagram", "dateRecorded": "2021-08-15" }
+        ]
+      }
+    ],
+    "categories": ["Social", "Humor", "Hype"],
+    "regions": [
+      { "regionName": "Northeast US", "country": "USA", "popularityScore": 7.0 },
+      { "regionName": "London", "country": "UK", "popularityScore": 6.0 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 23, "toTermText": "NPC", "relationType": "antonym", "confidenceScore": 0.90 }
+    ]
+  },
+  {
+    "termId": 20,
+    "text": "game",
+    "difficultyRating": 2,
+    "trendingStatus": "Stable",
+    "popularityScore": 6.5,
+    "dateAdded": "2018-05-01",
+    "isActive": true,
+    "origin": {
+      "originId": 8,
+      "name": "Hip-Hop",
+      "description": "Rooted in hip-hop music and culture",
+      "cultureGroup": "African American"
+    },
+    "definitions": [
+      {
+        "definitionId": 22,
+        "text": "Skill in social or romantic interactions; swagger",
+        "partOfSpeech": "noun",
+        "dateAdded": "2018-05-01",
+        "examples": [
+          { "exampleId": 31, "sentence": "He's got serious game, everyone wants to talk to him.", "source": "Reddit", "dateRecorded": "2018-06-01" }
+        ]
+      }
+    ],
+    "categories": ["Social", "Dating"],
+    "regions": [
+      { "regionName": "Global", "country": "Global", "popularityScore": 7.0 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 3, "toTermText": "rizz", "relationType": "synonym", "confidenceScore": 0.80 }
+    ]
+  },
+  {
+    "termId": 21,
+    "text": "understood the assignment",
+    "difficultyRating": 2,
+    "trendingStatus": "Declining",
+    "popularityScore": 5.8,
+    "dateAdded": "2021-09-01",
+    "isActive": true,
+    "origin": {
+      "originId": 3,
+      "name": "Internet Culture",
+      "description": "Born from YouTube and Twitch streaming communities",
+      "cultureGroup": "Online"
+    },
+    "definitions": [
+      {
+        "definitionId": 23,
+        "text": "Did exactly what was needed perfectly; nailed it",
+        "partOfSpeech": "verb",
+        "dateAdded": "2021-09-01",
+        "examples": [
+          { "exampleId": 32, "sentence": "Zendaya at the Met Gala understood the assignment.", "source": "Twitter", "dateRecorded": "2021-09-15" }
+        ]
+      }
+    ],
+    "categories": ["Compliment", "Hype"],
+    "regions": [
+      { "regionName": "Global", "country": "Global", "popularityScore": 6.0 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 1, "toTermText": "slay", "relationType": "synonym", "confidenceScore": 0.82 },
+      { "toTermId": 5, "toTermText": "ate", "relationType": "synonym", "confidenceScore": 0.85 }
+    ]
+  },
+  {
+    "termId": 22,
+    "text": "simp",
+    "difficultyRating": 2,
+    "trendingStatus": "Declining",
+    "popularityScore": 6.0,
+    "dateAdded": "2020-04-01",
+    "isActive": true,
+    "origin": {
+      "originId": 3,
+      "name": "Internet Culture",
+      "description": "Born from YouTube and Twitch streaming communities",
+      "cultureGroup": "Online"
+    },
+    "definitions": [
+      {
+        "definitionId": 24,
+        "text": "Someone who does way too much for a person they like, often without getting anything in return",
+        "partOfSpeech": "noun",
+        "dateAdded": "2020-04-01",
+        "examples": [
+          { "exampleId": 33, "sentence": "He bought her flowers every day for a month, total simp behavior.", "source": "TikTok", "dateRecorded": "2020-05-01" },
+          { "exampleId": 34, "sentence": "Stop simping bro, she doesn't even know your name.", "source": "Discord", "dateRecorded": "2020-06-15" }
+        ]
+      }
+    ],
+    "categories": ["Insult", "Dating", "Humor"],
+    "regions": [
+      { "regionName": "Global", "country": "Global", "popularityScore": 7.0 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 9, "toTermText": "delulu", "relationType": "related", "confidenceScore": 0.70 }
+    ]
+  },
+  {
+    "termId": 23,
+    "text": "NPC",
+    "difficultyRating": 3,
+    "trendingStatus": "Rising",
+    "popularityScore": 7.8,
+    "dateAdded": "2023-07-01",
+    "isActive": true,
+    "origin": {
+      "originId": 5,
+      "name": "Gaming",
+      "description": "Popularized by the video game Among Us",
+      "cultureGroup": "Online"
+    },
+    "definitions": [
+      {
+        "definitionId": 25,
+        "text": "Non-playable character; someone who lacks original thought or goes through life on autopilot",
+        "partOfSpeech": "noun",
+        "dateAdded": "2023-07-01",
+        "examples": [
+          { "exampleId": 35, "sentence": "He just follows whatever everyone else does, total NPC.", "source": "TikTok", "dateRecorded": "2023-08-01" },
+          { "exampleId": 36, "sentence": "NPC behavior is ordering the same coffee every single day.", "source": "Twitter", "dateRecorded": "2023-09-01" }
+        ]
+      }
+    ],
+    "categories": ["Insult", "Humor", "Social"],
+    "regions": [
+      { "regionName": "Global", "country": "Global", "popularityScore": 8.0 },
+      { "regionName": "Northeast US", "country": "USA", "popularityScore": 8.5 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 19, "toTermText": "main character", "relationType": "antonym", "confidenceScore": 0.90 }
+    ]
+  },
+  {
+    "termId": 24,
+    "text": "ick",
+    "difficultyRating": 2,
+    "trendingStatus": "Peak",
+    "popularityScore": 8.0,
+    "dateAdded": "2023-02-01",
+    "isActive": true,
+    "origin": {
+      "originId": 7,
+      "name": "Dating Culture",
+      "description": "Emerged from online dating and texting norms",
+      "cultureGroup": "Online"
+    },
+    "definitions": [
+      {
+        "definitionId": 26,
+        "text": "A sudden feeling of disgust or turn-off toward someone you were previously attracted to",
+        "partOfSpeech": "noun",
+        "dateAdded": "2023-02-01",
+        "examples": [
+          { "exampleId": 37, "sentence": "He clapped when the plane landed and I got the ick instantly.", "source": "TikTok", "dateRecorded": "2023-03-01" },
+          { "exampleId": 38, "sentence": "Running with a backpack on is such an ick.", "source": "Instagram", "dateRecorded": "2023-04-01" }
+        ]
+      }
+    ],
+    "categories": ["Dating", "Negative", "Humor"],
+    "regions": [
+      { "regionName": "London", "country": "UK", "popularityScore": 9.0 },
+      { "regionName": "Northeast US", "country": "USA", "popularityScore": 8.0 },
+      { "regionName": "Sydney", "country": "Australia", "popularityScore": 7.5 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 11, "toTermText": "ghosted", "relationType": "related", "confidenceScore": 0.60 }
+    ]
+  },
+  {
+    "termId": 25,
+    "text": "era",
+    "difficultyRating": 2,
+    "trendingStatus": "Peak",
+    "popularityScore": 8.5,
+    "dateAdded": "2023-08-01",
+    "isActive": true,
+    "origin": {
+      "originId": 9,
+      "name": "Stan Culture",
+      "description": "Popularized by dedicated fanbases, especially Taylor Swift fans",
+      "cultureGroup": "Online"
+    },
+    "definitions": [
+      {
+        "definitionId": 27,
+        "text": "A distinct phase or period in someone's life defined by a mood, aesthetic, or behavior",
+        "partOfSpeech": "noun",
+        "dateAdded": "2023-08-01",
+        "examples": [
+          { "exampleId": 39, "sentence": "I'm in my gym era, no more excuses.", "source": "TikTok", "dateRecorded": "2023-09-01" },
+          { "exampleId": 40, "sentence": "She's in her villain era and honestly, good for her.", "source": "Twitter", "dateRecorded": "2023-10-01" }
+        ]
+      }
+    ],
+    "categories": ["Social", "Humor", "Self-expression"],
+    "regions": [
+      { "regionName": "Global", "country": "Global", "popularityScore": 8.5 },
+      { "regionName": "Northeast US", "country": "USA", "popularityScore": 9.0 }
+    ],
+    "semanticRelations": [
+      { "toTermId": 19, "toTermText": "main character", "relationType": "related", "confidenceScore": 0.72 }
+    ]
+  }
+]

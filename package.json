@@ -1,0 +1,26 @@
+{
+  "name": "3200-project-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N1kh1l23/3200-Project-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/N1kh1l23/3200-Project-2/issues"
+  },
+  "homepage": "https://github.com/N1kh1l23/3200-Project-2#readme",
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.1"
+  }
+}
